@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local outputs (large, do not commit)
+*.mp4
+*.m4a
+*.mp3
+*.wav
+tts-cache/
+narration.m4a
+narration-v*.m4a
+
+# Secrets — never commit
+.env
+
+# OS
+Thumbs.db
+.DS_Store
